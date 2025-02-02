@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a598fa2-46f0-4a09-9566-01a1e444789c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/credit-card-validator/DTO/CreditCardDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.credit-card-validator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.credit-card-validator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-card-validator/Models/CreditCardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/credit-card-validator/Models/CreditCardModel.cs" afterDir="false" />
-    </list>
+    <list default="true" id="3a598fa2-46f0-4a09-9566-01a1e444789c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +116,7 @@
       <workItem from="1738336700323" duration="2343000" />
       <workItem from="1738422883977" duration="2128000" />
       <workItem from="1738467218436" duration="564000" />
-      <workItem from="1738484107204" duration="2029000" />
+      <workItem from="1738484107204" duration="2441000" />
     </task>
     <servers />
   </component>

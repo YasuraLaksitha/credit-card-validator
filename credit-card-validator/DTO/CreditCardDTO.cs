@@ -20,6 +20,6 @@ public class CreditCardDTO
     [Required(ErrorMessage = "Please enter card bank name")]
     public required string IssuedBank { set; get; }
 
-    [Required(ErrorMessage = "Please enter card bank name")]
+    [Required(ErrorMessage = "Please enter card type")]
     public required CardType CardType {set; get; }
 }
