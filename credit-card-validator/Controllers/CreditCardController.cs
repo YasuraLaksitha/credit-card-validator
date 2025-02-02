@@ -11,6 +11,6 @@ public class CreditCardController(ILogger<CreditCardController> logger) : Contro
     public IActionResult Post([FromBody] CreditCardDTO cardDto)
     {
         logger.LogInformation("Request Received | {}", cardDto);
-        return Ok();
+        return Ok("Request received");
     }
 }

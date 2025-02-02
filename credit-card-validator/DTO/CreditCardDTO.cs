@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using credit_card_validator.Utils;
 
 namespace credit_card_validator.DTO;
 
 public class CreditCardDTO
 {
-
-    [RegularExpression(@"^(4\d{16}|3[47]\d{15}|(22|5[1-5])\d{16}|6011\d{16})$", ErrorMessage = "Invalid card number")]
+    //   [RegularExpression(@"^(4\d{16}|3[47]\d{15}|(22|5[1-5])\d{16}|6011\d{16})$", ErrorMessage = "Invalid card number")]
     public long CardNumber { set; get; }
 
     [Required(ErrorMessage = "Please enter card holder's name")]
@@ -21,5 +21,5 @@ public class CreditCardDTO
     public required string IssuedBank { set; get; }
 
     [Required(ErrorMessage = "Please enter card type")]
-    public required CardType CardType {set; get; }
+    public required CardType CardType { set; get; }
 }
